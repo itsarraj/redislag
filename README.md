@@ -6,6 +6,12 @@ RESP (REdis Serialization Protocol) client — no `redis-cli` binary, no
 `SLOWLOG GET` for the slow-command log, both parsed from the raw wire
 protocol.
 
+## Installation
+
+```sh
+cargo install --path .
+```
+
 ## Usage
 
 ```bash
